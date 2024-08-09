@@ -14,7 +14,13 @@
 
 h2.inline-richtext {
     text-transform: uppercase;
+}
 
+.header__menu-item {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: rgba(var(--color-foreground)) !important
 }
 /* Home Banner Text Styling */
 h2.banner__heading {
@@ -24,7 +30,7 @@ h2.banner__heading {
 }
 
 /* All  Headers/text that require font spacing, uppercase @ 20pt */
-h3.card__heading {
+h3.card__heading, .announcement-bar__message, .h5 {
     font-family: var(--font-body-family);
     letter-spacing: 0.1rem;
     text-transform: uppercase;
