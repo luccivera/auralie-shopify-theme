@@ -17,42 +17,41 @@
         "heading_q3FrQ7": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Subscribe to our Newsletter",
             "heading_size": "h1"
-          }
-        },
-        "paragraph_QmifEp": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
           }
         },
         "email_form_KnpnTX": {
           "type": "email_form",
           "settings": {
           }
+        },
+        "paragraph_QmifEp": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Nibh proin cursus consequat amet. Blandit suspendisse neque dolor enim viverra sagittis.<\/p>"
+          }
         }
       },
       "block_order": [
         "heading_q3FrQ7",
-        "paragraph_QmifEp",
-        "email_form_KnpnTX"
+        "email_form_KnpnTX",
+        "paragraph_QmifEp"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-2": {
-          "type": "text",
+        "brand_information_3ryVWG": {
+          "type": "brand_information",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "show_social": true
           }
         },
         "footer-0": {
@@ -68,19 +67,27 @@
             "heading": "Info",
             "menu": "footer"
           }
+        },
+        "link_list_RPL8GC": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
-        "footer-2",
+        "brand_information_3ryVWG",
         "footer-0",
-        "footer-1"
+        "footer-1",
+        "link_list_RPL8GC"
       ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
-        "show_social": true,
+        "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,

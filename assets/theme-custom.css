@@ -1,0 +1,52 @@
+/* All  H2 Headers that require Orange */
+.collection__title > h2, h2.collection-list-title {
+    text-transform: uppercase;
+    color: #F98805 !important;
+}
+
+/* All  H2 Headers that require White */
+.image-with-text__content > h2 {
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+/* H2 that only requires upperase */
+
+h2.inline-richtext {
+    text-transform: uppercase;
+
+}
+/* Home Banner Text Styling */
+h2.banner__heading {
+    text-transform: uppercase;
+    font-size: 12.49rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/* All  Headers/text that require font spacing, uppercase @ 20pt */
+h3.card__heading {
+    font-family: var(--font-body-family);
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+
+}
+
+
+/* Border Styling referencing green borders */
+.banner__buttons, .card__media, a.button{
+    text-transform: uppercase;
+    font-size: 1.33rem !important;
+    letter-spacing: 0.1rem !important;
+    font-weight: bold; 
+    border: 1px solid #2CB569;
+
+}
+
+.multirow{
+    background: rgb(255,250,226);
+    background: linear-gradient(180deg, rgba(255,250,226,1) 0%, rgba(255,215,0,1) 32%, rgba(249,136,5,1) 63%, rgba(242,84,116,1) 100%) !important;
+}
+
+.image-with-text__text > p {
+    color: #fff;
+}
