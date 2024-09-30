@@ -2,13 +2,265 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "header_with_image_3G7aMq": {
+      "type": "header-with-image",
+      "blocks": {
+        "page_title_9K9PtW": {
+          "type": "page_title",
+          "settings": {
+            "title": "FAQS"
+          }
+        },
+        "description_VX89Je": {
+          "type": "description",
+          "settings": {
+            "description_text": "Add a description of your page here. You can include more information about the page or section."
+          }
+        },
+        "image_qXznmL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1e737ff8-ae04-4747-a39c-a4e4015dde7f.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "page_title_9K9PtW",
+        "description_VX89Je",
+        "image_qXznmL"
+      ],
+      "settings": {
+        "left_background_color": "#f98805"
+      }
+    },
+    "marquee_KFKMpX": {
+      "type": "marquee",
+      "blocks": {
+        "text_block_zKX3BE": {
+          "type": "text_block",
+          "settings": {
+            "text": "Enter your text here"
+          }
+        },
+        "text_block_qcjirJ": {
+          "type": "text_block",
+          "settings": {
+            "text": "Enter your text here"
+          }
+        },
+        "text_block_KPFVr7": {
+          "type": "text_block",
+          "settings": {
+            "text": "Enter your text here"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_zKX3BE",
+        "text_block_qcjirJ",
+        "text_block_KPFVr7"
+      ],
+      "settings": {
+        "marquee_background_color": "#FFD700",
+        "star_color": "#F25476"
+      }
+    },
+    "collapsible_content_ehFb76": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_WjDEHq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_miP9Kw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_AdXa7N": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JxEXrH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_WjDEHq",
+        "collapsible_row_miP9Kw",
+        "collapsible_row_AdXa7N",
+        "collapsible_row_JxEXrH"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Lorem ipsum",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_RiT96V": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_JBcwPU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mthrri": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VX8qEb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_r73RRX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_JBcwPU",
+        "collapsible_row_mthrri",
+        "collapsible_row_VX8qEb",
+        "collapsible_row_r73RRX"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Lorem ipsum",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_qmfTJA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Hz3BMQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3eLQEX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6CQcFy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_AazYYU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "lorem ipsum question header?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet consectetur. Eget risus lorem urna lacus amet in. Est sed commodo tempus in enim et. Consectetur feugiat vel vulputate arcu blandit vel aenean. Suscipit diam ultricies sed venenatis arcu dolor. Varius donec sagittis sed a. Ridiculus vitae vitae felis vestibulum amet mollis urna augue ligula. Pharetra lacus luctus arcu ut scelerisque elit. Ante suspendisse praesent magna urna in purus tempor nunc maecenas.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Hz3BMQ",
+        "collapsible_row_3eLQEX",
+        "collapsible_row_6CQcFy",
+        "collapsible_row_AazYYU"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Lorem ipsum",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "header_with_image_3G7aMq",
+    "marquee_KFKMpX",
+    "collapsible_content_ehFb76",
+    "collapsible_content_RiT96V",
+    "collapsible_content_qmfTJA"
   ]
 }
