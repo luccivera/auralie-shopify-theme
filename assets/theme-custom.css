@@ -1,5 +1,5 @@
 /* All  H2 Headers that require Orange */
-.collection__title > h2, h2.collection-list-title {
+.collection__title > h2, h2.collection-list-title, h1.collection-hero__title {
     text-transform: uppercase;
     color: #F98805 !important;
 }
@@ -37,6 +37,25 @@ h3.card__heading, .announcement-bar__message, .h5 {
 
 }
 
+.facets-wrapper,
+.facets__heading,
+.facet-filters__field h2,
+.select__select,
+.product-form__buttons button,
+.button,
+.facet-filters__sort,
+.product-count__text,
+.menu-drawer__menu > li,
+.announcement-bar__message,
+.collapsible-content__heading,
+h3.accordion__title,
+ {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  font-size: 1rem !important; 
+  font-family: var(--font-heading-family);
+}
 
 /* Border Styling referencing green borders */
 .banner__buttons, .card__media, a.button{
@@ -56,3 +75,46 @@ h3.card__heading, .announcement-bar__message, .h5 {
 .image-with-text__text > p {
     color: #fff;
 }
+
+/* Breadcrumbs' styles */
+.breadcrumbs {
+    font-size: 0.60em !important;
+    font-weight: bold; 
+    text-transform: uppercase;
+    margin: 2.5em 0;
+  }
+  
+  .breadcrumbs ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .breadcrumbs li {
+    display: inline-block;
+  }
+  
+  .breadcrumbs a {
+    text-decoration: underline;
+  }
+  
+  .breadcrumbs li:not(:last-child):after {  
+    content: "/\00a0"; /* Forward slash followed by a non-breaking space */
+    display: inline-block;
+    padding-left: .75ch;
+    speak: none;
+    vertical-align: middle;
+  }
+  
+  .breadcrumbs [aria-current="page"] {
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  .breadcrumbs [aria-current="page"]:hover,
+  .breadcrumbs [aria-current="page"]:focus,
+  .breadcrumbs [aria-current="page"]:visited {
+    text-decoration: underline;
+
+  }
