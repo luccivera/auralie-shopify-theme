@@ -76,8 +76,8 @@
         "text_block_ggMN9i"
       ],
       "settings": {
-        "marquee_background_color": "#FFD700",
-        "star_color": "#F25476"
+        "marquee_background_color": "#ffd700",
+        "star_color": "#f25476"
       }
     },
     "featured_collection": {
@@ -114,25 +114,25 @@
         "featured_collection_HJAzYp": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "necklaces"
           }
         },
         "featured_collection_bGPnCd": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "nail-gems"
           }
         },
         "featured_collection_cEyqgg": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "tooth-gems"
           }
         },
         "featured_collection_QTDQz8": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "bracelets"
           }
         }
       },
