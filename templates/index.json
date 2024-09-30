@@ -48,6 +48,38 @@
         "show_text_below": false
       }
     },
+    "marquee_86VTEf": {
+      "type": "marquee",
+      "blocks": {
+        "text_block_LLGpTY": {
+          "type": "text_block",
+          "settings": {
+            "text": "Enter your text here"
+          }
+        },
+        "text_block_MicjfC": {
+          "type": "text_block",
+          "settings": {
+            "text": "Enter your text here"
+          }
+        },
+        "text_block_ggMN9i": {
+          "type": "text_block",
+          "settings": {
+            "text": "Enter your text here"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_LLGpTY",
+        "text_block_MicjfC",
+        "text_block_ggMN9i"
+      ],
+      "settings": {
+        "marquee_background_color": "#FFD700",
+        "star_color": "#F25476"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -251,6 +283,7 @@
   },
   "order": [
     "image_banner",
+    "marquee_86VTEf",
     "featured_collection",
     "collection_list_4wNryF",
     "multirow_f8EAFa",
