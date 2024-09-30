@@ -68,7 +68,7 @@
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'page_title' %}
-            <h1 style="font-size: 12rem; opacity: 0.4; margin: 0; color:#fff;">
+            <h1 style="font-size: 12rem; opacity: 0.4; margin: 0; color:#fff;  text-transform:uppercase;">
               {{ block.settings.title }}
             </h1>
           {% when 'description' %}
