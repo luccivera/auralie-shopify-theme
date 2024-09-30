@@ -137,3 +137,12 @@ h3.accordion__title,
     color: #F98805 !important;
     text-decoration: none !important;
 }
+
+/* IG Feed  */
+
+div#insta-feed{
+  padding: 30px 0 40px 0;
+}
+div.instafeed-new-layout-item{
+  border: 1px solid #2CB569 !important;
+}
