@@ -1,5 +1,5 @@
 /* All  H2 Headers that require Orange */
-.collection__title > h2, h2.collection-list-title, h1.collection-hero__title {
+.collection__title > h2, h2.collection-list-title, h1.collection-hero__title, h1.title--primary, h1.title {
     text-transform: uppercase;
     color: #F98805 !important;
 }
