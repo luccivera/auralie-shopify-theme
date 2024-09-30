@@ -1,0 +1,79 @@
+{% schema %}
+{
+  "name": "Marquee",
+  "settings": [
+    {
+      "type": "color",
+      "id": "marquee_background_color",
+      "label": "Marquee Background Color",
+      "default": "#FFD700"
+    },
+    {
+      "type": "color",
+      "id": "star_color",
+      "label": "Star Color",
+      "default": "#F25476"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "Text Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Enter your text here"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Marquee",
+      "category": "Custom"
+    }
+  ],
+  "max_blocks": 5
+}
+{% endschema %}
+
+<section
+  class="marquee"
+  style=" border-bottom: 1px solid #2CB569; margin: 0; padding: 3px 0; width: 100%;  overflow: hidden; white-space: nowrap; background-color: {{ section.settings.marquee_background_color }} "
+>
+  <div
+    class="marquee-content"
+    style="display: inline-block;  "
+  >
+    {% for block in section.blocks %}
+      <span style="text-transform: uppercase; font-weight: bold;">
+        {{ block.settings.text }}
+      </span>
+      {% if forloop.last == false %}
+        <span style=" padding: 0 20px 0 20px; color: {{ section.settings.star_color }}">&#9733;</span>
+        <!-- Star separator -->
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+  .marquee {
+    overflow: hidden; /* Hide overflow */
+  }
+  .marquee-content {
+    display: inline-block; /* Allow inline block for scrolling effect */
+    animation: marquee 10s linear infinite; /* Animation for marquee */
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+</style>

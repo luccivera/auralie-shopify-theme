@@ -48,15 +48,28 @@ h3.card__heading, .announcement-bar__message, .h5 {
 .menu-drawer__menu > li,
 .announcement-bar__message,
 .collapsible-content__heading,
-h3.accordion__title,
+
  {
-  text-transform: uppercase;
+  text-transform: uppercase !important;
   font-weight: bold;
   letter-spacing: 0.2rem;
   font-size: 1rem !important; 
   font-family: var(--font-heading-family);
 }
 
+/* FAQs Headers */
+
+h2.collapsible-content__heading{
+    color: #F98805;
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+}
+
+h3.accordion__title,
+.accordion__title {
+    text-transform: uppercase !important;
+    font-size: 16px;
+}
 /* Border Styling referencing green borders */
 .banner__buttons, .card__media, a.button{
     text-transform: uppercase;
@@ -118,3 +131,9 @@ h3.accordion__title,
     text-decoration: underline;
 
   }
+
+  /* Nav Styling  */
+  .header__active-menu-item {
+    color: #F98805 !important;
+    text-decoration: none !important;
+}
