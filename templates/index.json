@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -21,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Learn More",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -35,7 +44,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/cb82cfc2-0c8f-4071-add8-17e8f2b6700e_a4dc69d6-9cc1-4cd7-9ff5-b3b3387bd1eb.png",
+        "image": "shopify://shop_images/cb82cfc2-0c8f-4071-add8-17e8f2b6700e_a4dc69d6-9cc1-4cd7-9ff5-b3b3387bd1eb.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -163,9 +172,9 @@
           "settings": {
             "caption": "",
             "heading": "Lorem Ipsum",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify://collections/all"
           }
         },
         "row_tWKTfr": {
@@ -173,9 +182,9 @@
           "settings": {
             "caption": "",
             "heading": "Lorem ipsum",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify://collections/all"
           }
         },
         "row_egxX3q": {
@@ -183,9 +192,9 @@
           "settings": {
             "caption": "",
             "heading": "Lorem Ipsum",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify://collections/all"
           }
         }
       },
@@ -223,7 +232,7 @@
         "text_LRyPP9": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "button_PQQJzr": {
@@ -279,6 +288,27 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "172771956711bc6b51": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_dJjyrf": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "#f25476",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_dJjyrf"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
@@ -288,6 +318,7 @@
     "collection_list_4wNryF",
     "multirow_f8EAFa",
     "rich_text_K4F349",
-    "featured_collection_xpKqx7"
+    "featured_collection_xpKqx7",
+    "172771956711bc6b51"
   ]
 }
