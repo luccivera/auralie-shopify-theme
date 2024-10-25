@@ -24,17 +24,30 @@ h2.inline-richtext {
 }
 /* Home Banner Text Styling */
 h2.banner__heading {
-    text-transform: uppercase;
-    font-size: 12.49rem;
-    color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  font-size: 12.49rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Tablet View */
+@media (max-width: 1024px) {
+  h2.banner__heading {
+      font-size: 10rem; /* Adjust font size for tablet */
+  }
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+  h2.banner__heading {
+      font-size: 5rem; /* Adjust font size for mobile */
+  }
 }
 
 /* All  Headers/text that require font spacing, uppercase @ 20pt */
-h3.card__heading, .announcement-bar__message, .h5 {
-    font-family: var(--font-body-family);
+h3.card__heading, p.announcement-bar__message {
+    font-family: var(--font-body-family) !important;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-
 }
 
 .facets-wrapper,
@@ -145,4 +158,58 @@ div#insta-feed{
 }
 div.instafeed-new-layout-item{
   border: 1px solid #2CB569 !important;
+}
+
+/* Icon Color Change */
+.icon{
+  color: #2CB569;
+}
+
+
+/********* Mobile *******/
+
+
+
+
+.collection__title-container, .collection__list-container {
+  display: flex;                 /* Use Flexbox layout */
+  justify-content: space-between; /* Push the header to the left and button to the right */
+  width: 100%;                    /* Ensure the container spans full width */
+}
+
+
+.collection-list-view-all, .collection__view-all, .collection__view-all a:not(.link) {
+  margin: 0rem !important;
+}
+
+/* This section overlays the h3 of card__heading to the middle of the image */
+.custom-card-collection.card__media {
+  position: relative; /* Allow absolute positioning for child elements */
+}
+
+.custom-card-collection .card-wrapper .card__heading {
+  position: absolute; /* Position the heading absolutely */
+  top: 50%; /* Adjust this value as needed */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the heading */
+  z-index: 1; /* Ensure it appears above the image */
+  text-align: center; /* Center the text */
+  color: white; /* Change to your desired text color */
+}
+.custom-card-collection .card__heading {
+  width: 100%;
+  height: auto;
+  padding: 5px 0px;
+  background-color: rgba(255, 215, 0, 0.35); /* #FFD700 at 35% opacity */
+  border-top: 1px solid #2cb569;
+  border-bottom: 1px solid #2cb569;
+}
+
+/* This section targets the collection immediately under the multirow gradient */
+#shopify-section-template--23650114175288__featured_collection_xpKqx7 {
+  margin: 0 !important;
+}
+
+#collection-template--23650114175288__featured_collection_xpKqx7 .collection__title-container .collection__title h2 {
+  color: white !important;
 }
