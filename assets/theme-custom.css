@@ -50,8 +50,10 @@ h3.card__heading, p.announcement-bar__message {
     text-transform: uppercase;
 }
 
-.facets-wrapper,
+/* Uppercase Body Font Small - 12px */
+.facets__container, .facets-wrapper,
 .facets__heading,
+.facets__summary-label,
 .facet-filters__field h2,
 .select__select,
 .product-form__buttons button,
@@ -61,13 +63,12 @@ h3.card__heading, p.announcement-bar__message {
 .menu-drawer__menu > li,
 .announcement-bar__message,
 .collapsible-content__heading,
-
+.price,
+.card-information
  {
   text-transform: uppercase !important;
-  font-weight: bold;
-  letter-spacing: 0.2rem;
-  font-size: 1rem !important; 
-  font-family: var(--font-heading-family);
+  font-size: 12px !important; 
+  vertical-align: text-bottom;
 }
 
 /* FAQs Headers */
@@ -212,4 +213,10 @@ div.instafeed-new-layout-item{
 
 #collection-template--23650114175288__featured_collection_xpKqx7 .collection__title-container .collection__title h2 {
   color: white !important;
+}
+
+/* Form Fields */
+
+.field__input {
+  background-color: #fff !important;
 }
