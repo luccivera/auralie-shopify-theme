@@ -220,3 +220,8 @@ div.instafeed-new-layout-item{
 .field__input {
   background-color: #fff !important;
 }
+
+.image-with-text__media, .media {
+  background-color: transparent !important;
+  border: none !important;
+}

@@ -161,6 +161,7 @@
         "row_UMGtFm": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Polaroid_1.png",
             "caption": "",
             "heading": "Lorem Ipsum",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -171,6 +172,7 @@
         "row_tWKTfr": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Polaroid_2.png",
             "caption": "",
             "heading": "Lorem ipsum",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -181,6 +183,7 @@
         "row_egxX3q": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Polaroid_3.png",
             "caption": "",
             "heading": "Lorem Ipsum",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -195,7 +198,7 @@
         "row_egxX3q"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
@@ -203,8 +206,8 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-1",
         "mobile_content_alignment": "center",
         "padding_top": 80,
         "padding_bottom": 80
