@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -26,7 +35,7 @@
         "image_iQaJpK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/35fcd754-d5d3-4f6d-b02e-99bd7180ac42.jpg"
+            "image": "shopify://shop_images/35fcd754-d5d3-4f6d-b02e-99bd7180ac42.jpg"
           }
         }
       },
@@ -84,7 +93,7 @@
         "text_GVH9WL": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Lorem hac vitae purus eget amet. In nulla pharetra viverra amet. Amet blandit morbi at eu odio. Quisque nunc enim eget id ut nibh lorem. Ipsum cursus tellus sit quis purus eget nullam viverra.Suscipit eu nunc mattis magna proin. Massa ipsum arcu faucibus fermentum fermentum. Et eu lobortis turpis aliquam eu est facilisi. At eu placerat arcu consectetur neque varius. Ut amet amet viverra nibh fringilla id lorem volutpat. Facilisis interdum pulvinar pharetra nulla ornare commodo velit eu. Tellus pulvinar sit vulputate volutpat quisque. Pellentesque nisl rhoncus nibh in volutpat.<\/p>"
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Lorem hac vitae purus eget amet. In nulla pharetra viverra amet. Amet blandit morbi at eu odio. Quisque nunc enim eget id ut nibh lorem. Ipsum cursus tellus sit quis purus eget nullam viverra.Suscipit eu nunc mattis magna proin. Massa ipsum arcu faucibus fermentum fermentum. Et eu lobortis turpis aliquam eu est facilisi. At eu placerat arcu consectetur neque varius. Ut amet amet viverra nibh fringilla id lorem volutpat. Facilisis interdum pulvinar pharetra nulla ornare commodo velit eu. Tellus pulvinar sit vulputate volutpat quisque. Pellentesque nisl rhoncus nibh in volutpat.</p>"
           }
         }
       },
@@ -107,10 +116,14 @@
         "row_UYCc88": {
           "type": "row",
           "settings": {
+<<<<<<< HEAD
             "image": "shopify:\/\/shop_images\/Polaroid_1.png",
+=======
+            "image": "shopify://shop_images/Polaroid_1.png",
+>>>>>>> 32ccc6e6c66bac9e85ab5582ea961fc768c7f721
             "caption": "",
             "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -118,10 +131,14 @@
         "row_yag3Gn": {
           "type": "row",
           "settings": {
+<<<<<<< HEAD
             "image": "shopify:\/\/shop_images\/Polaroid_2.png",
+=======
+            "image": "shopify://shop_images/Polaroid_2.png",
+>>>>>>> 32ccc6e6c66bac9e85ab5582ea961fc768c7f721
             "caption": "",
             "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -129,10 +146,14 @@
         "row_3FAryV": {
           "type": "row",
           "settings": {
+<<<<<<< HEAD
             "image": "shopify:\/\/shop_images\/Polaroid_3.png",
+=======
+            "image": "shopify://shop_images/Polaroid_3.png",
+>>>>>>> 32ccc6e6c66bac9e85ab5582ea961fc768c7f721
             "caption": "",
             "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "",
             "button_link": ""
           }
