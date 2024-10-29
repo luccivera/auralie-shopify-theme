@@ -1,0 +1,140 @@
+{%- comment -%}
+  Custom Social Footer Section: custom-social-footer.liquid
+{%- endcomment -%}
+
+{% schema %}
+{
+  "name": "Social Footer",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading",
+      "default": "@LeesWeb"
+    },
+    {
+      "type": "richtext",
+      "id": "paragraph_text",
+      "label": "Paragraph",
+      "default": "Your custom paragraph text here."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Click Here"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link",
+      "default": "#"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "social_media",
+      "name": "Social Media Link",
+      "settings": [
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Social Media Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Social Media Icon"
+        },
+        {
+          "type": "text",
+          "id": "platform",
+          "label": "Platform Name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Social Footer",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{%- style -%}
+  .social-footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  .social-footer .footer-heading h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .social-footer .footer-paragraph {
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .social-footer .footer-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--color-accent, #3490dc); /* Fallback color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .social-footer .social-media-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+  }
+
+  .social-footer .social-media-link img {
+    width: 24px;
+    height: 24px;
+  }
+{%- endstyle -%}
+
+<div class="social-footer">
+  <!-- Heading -->
+  <div class="footer-heading">
+    <h2>{{ section.settings.heading_text }}</h2>
+  </div>
+
+  <!-- Paragraph -->
+  <div class="footer-paragraph">
+    <p>{{ section.settings.paragraph_text }}</p>
+  </div>
+
+  <!-- Button -->
+  <div>
+    <a href="{{ section.settings.button_link }}" class="footer-button">{{ section.settings.button_label }}</a>
+  </div>
+
+  <!-- Social Media Links -->
+  <div class="social-media-links">
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'social_media' -%}
+        <a href="{{ block.settings.link }}" class="social-media-link" target="_blank" rel="noopener">
+          <img
+            src="{{ block.settings.icon | image_url: '100x100' }}"
+            width="auto"
+            height="auto"
+            alt="{{ block.settings.platform }} Icon"
+          >
+        </a>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
