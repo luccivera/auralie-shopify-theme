@@ -1,5 +1,5 @@
 /* All  H2 Headers that require Orange */
-.collection__title > h2, h2.collection-list-title, h1.collection-hero__title, h1.title--primary, h1.title {
+.collection__title > h2, h2.collection-list-title, h1.collection-hero__title, h1.title--primary, h1.title, .footer-heading h2 {
     text-transform: uppercase;
     color: #F98805 !important;
 }
@@ -224,4 +224,34 @@ div.instafeed-new-layout-item{
 .image-with-text__media, .media {
   background-color: transparent !important;
   border: none !important;
+}
+
+/* Social Footer */
+
+.social-footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer-heading h2, .footer-paragraph p {
+  margin-bottom: 10px
+}
+.socialContainer{
+  text-align:center;
+
+}
+
+.socialContainer h2{
+  margin-bottom:20px
+}
+.socialIcons {
+  display:flex;justify-content:center;gap:20px
+}
+
+.socialIcons a img{
+  width:40px;height:40px;transition:transform .3s
+}
+
+#insta-feed {
+  padding-top: 2rem !important;
 }
